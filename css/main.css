@@ -1,0 +1,31 @@
+body{
+  text-align: center;
+  font-family: sans-serif;
+}
+button {
+  margin: 0;
+  padding: 0;
+  max-height: 135px;
+  max-width: 135px;
+  background-color: #f5f5f5;
+  border-style: solid;
+  border-color: #dcdcdc;
+  border-thickness: thin;
+}
+img {
+  margin: 0;
+  padding: 0;
+  display: none;
+  max-width: 100%;
+}
+#img1 {
+  display: block;
+}
+#grid {
+  max-height: 540px;
+  max-width: 540px; /* keep */
+  margin: auto; /* keep */
+  display: grid; /* keep */
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
